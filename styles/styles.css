@@ -1,17 +1,15 @@
 /* font-family: 'Nunito', sans-serif;
 font-family: 'Roboto', sans-serif;*/
-.hero {
-  background-image: url("/images/overlay.png");
-  height: 100%;
-  width: 100%;
-  position: fixed;
+
+.hero-image {
+  background-image: url(/images/overlay.png);
+
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
-.hero-content {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.hero-content h1 {
+
+.hero h1 {
   font-family: "Nunito", sans-serif;
   font-size: 72px;
   font-style: normal;
@@ -22,7 +20,7 @@ font-family: 'Roboto', sans-serif;*/
   color: white;
 }
 
-.hero-content p {
+.hero p {
   font-family: "Nunito", sans-serif;
   font-size: 24px;
   font-style: normal;
