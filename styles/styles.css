@@ -1,32 +1,58 @@
 /* font-family: 'Nunito', sans-serif;
 font-family: 'Roboto', sans-serif;*/
-
+body,
+html {
+  height: 100%;
+}
+.hero {
+  margin-bottom: 100px;
+}
 .hero-image {
   background-image: url(/images/overlay.png);
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 265px;
+  width: 1440px;
+  object-fit: cover;
 }
-
-.hero h1 {
+.hero-content {
+  text-align: center;
+  padding-top: 40px;
+}
+.hero-content h1 {
   font-family: "Nunito", sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 700;
   line-height: 98px;
   letter-spacing: 0em;
-  text-align: center;
   color: white;
 }
 
-.hero p {
+.hero-content p {
   font-family: "Nunito", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: 35px;
   letter-spacing: 0em;
-  text-align: center;
   color: white;
+}
+
+.section {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.homepage-content img {
+  margin-bottom: 20px;
+}
+
+.homepage-content h3 {
+  font-family: Nunito;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
 }
