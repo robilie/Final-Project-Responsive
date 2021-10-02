@@ -92,3 +92,109 @@ html {
     margin-right: 0;
   }
 }
+
+.about-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+
+.about-heading {
+  font-family: Nunito;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 98px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #272142;
+  margin-bottom: 126px;
+}
+
+.shelley-heading {
+  font-family: Nunito;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 87px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #272142;
+  margin-top: 60px;
+}
+.about-written-section {
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #272142;
+  margin-top: 30px;
+}
+
+.follow-me {
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #272142;
+  margin-top: 30px;
+}
+
+.social-media {
+  margin-right: 30px;
+}
+.fa-facebook-square {
+  margin-left: 30px;
+}
+.recipe-heading {
+  font-family: Nunito;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #272142;
+  margin-bottom: 40px;
+}
+
+.recipe-titles {
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #272142;
+  margin-bottom: 20px;
+}
+
+.recipe-brief {
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #272142;
+  padding-right: 70px;
+}
+
+.about-recipe {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.first-image,
+.second-image,
+.third-image {
+  margin-bottom: 20px;
+}
