@@ -94,8 +94,8 @@ html {
 }
 
 .about-section {
-  display: flex;
-  justify-content: space-evenly;
+  margin-right: 60px;
+  margin-left: 60px;
   margin-bottom: 100px;
 }
 
@@ -132,6 +132,7 @@ html {
   text-align: left;
   color: #272142;
   margin-top: 30px;
+  margin-right: 30px;
 }
 
 .follow-me {
@@ -188,13 +189,70 @@ html {
   padding-right: 70px;
 }
 
-.about-recipe {
-  display: flex;
-  justify-content: space-evenly;
-}
-
 .first-image,
 .second-image,
 .third-image {
   margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+  .about-heading {
+    font-size: 60px;
+    line-height: 49px;
+    margin-bottom: 30px;
+  }
+
+  .about-section {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 40px;
+  }
+
+  .shelley-heading {
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .about-written-section {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .follow-me {
+    font-size: 18px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .recipe-heading {
+    margin-bottom: 20px;
+  }
+
+  .recipe-titles {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .recipe-brief {
+    text-align: center;
+    padding: 0 20px 20px;
+  }
+
+  .first-image,
+  .second-image,
+  .third-image {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 280px) {
+  .social-media {
+    margin-right: 15px;
+  }
+  .fa-facebook-square {
+    margin-left: 10px;
+  }
 }
