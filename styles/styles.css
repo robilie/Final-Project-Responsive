@@ -408,3 +408,30 @@ li {
 .icon {
   margin-right: 20px;
 }
+
+@media (max-width: 576px) {
+  .contact-us-heading {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+
+  .contact-content {
+    margin: auto;
+    width: 100%;
+  }
+
+  .contact-heading {
+    text-align: center;
+  }
+
+  .contact-part-two {
+    margin-top: 30px;
+  }
+  .contact-info {
+    text-align: center;
+  }
+
+  .icon {
+    margin-right: 10px;
+  }
+}
