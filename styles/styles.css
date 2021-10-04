@@ -435,3 +435,28 @@ li {
     margin-right: 10px;
   }
 }
+
+div.container-fluid.navbar-box {
+  margin: 20px 100px 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #272142;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #662eed;
+}
+
+@media (max-width: 576px) {
+  div.container-fluid.navbar-box {
+    margin: 10px;
+  }
+}
