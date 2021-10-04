@@ -341,3 +341,25 @@ li {
   text-align: left;
   color: #272142;
 }
+
+@media (max-width: 576px) {
+  .recipe-colln-heading {
+    margin-bottom: 10px;
+  }
+
+  .top-image {
+    margin-top: 15px;
+  }
+
+  .recipe-title-colln {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .recipe-content {
+    margin: auto;
+    width: 80%;
+  }
+  .ingredient-heading {
+    margin-bottom: 30px;
+  }
+}
